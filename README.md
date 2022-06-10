@@ -42,3 +42,10 @@ When the project is completed, commit the final changes, sync all pull requests,
 
 ###### List group responsiblities below:
 ###### Provide name and approxamite line numbers where each person wrote their code
+
+
+"""
+###    lines 1-17 - John
+###    lines 19-27 - Danni
+###    lines 29 - 48 - John
+###    lines 50- 68 Danni

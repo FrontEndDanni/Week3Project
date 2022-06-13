@@ -33,13 +33,15 @@ class Parking_Garage:
           if self.current_ticket[ticket_num] == "paid":
             print("Thank you have a nice day!")
             del self.current_ticket[ticket_num]
-            self.tickets.append(self.current_ticket[ticket_num])
+            self.tickets.append(ticket_num)
+            self.parking_spaces.append(ticket_num)
             self.tickets.sort()
             break
           else:
             self.pay_for_parking()
             del self.current_ticket[ticket_num]
             self.tickets.append(ticket_num)
+            self.parking_spaces.append(ticket_num)
             self.tickets.sort()
             print("Thank you have a nice day!")
             break
